@@ -1,0 +1,19 @@
+{
+	"name" : "linked-list",
+	"version" : "1.0.0",
+	"descript" : "A JS version of a singly linked list I just learned about in Java",
+	"devDependencies" : {
+		"amdefine"		: "*",
+		"chai"			: "*",
+		"express"		: "*",
+		"mocha"			: "*",
+		"open"			: "*",
+		"requirejs"		: "*",
+		"underscore" 	: "*"
+	},
+	"scripts" : {
+		"test"			: "./node_modules/mocha/bin/mocha -R spec test/runner.js",
+		"start"	: "node bin/test"
+	},
+	"bin" : "bin/test"
+}

@@ -3,16 +3,14 @@
 	"version" : "1.0.0",
 	"descript" : "A JS version of a singly linked list I just learned about in Java",
 	"devDependencies" : {
-		"amdefine"		: "*",
-		"chai"			: "*",
-		"express"		: "*",
-		"mocha"			: "*",
-		"open"			: "*",
-		"requirejs"		: "*",
-		"underscore" 	: "*"
+		"chai"			: "1.5.x",
+		"express"		: "3.x",
+		"mocha"			: "1.8.x",
+		"open"			: "0.0.3",
+		"underscore"	: "1.4.x"
 	},
 	"scripts" : {
-		"test"			: "./node_modules/mocha/bin/mocha -R spec test/runner.js",
+		"test"			: "./node_modules/mocha/bin/mocha",
 		"start"	: "node bin/test"
 	},
 	"bin" : "bin/test",

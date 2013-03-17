@@ -1,3 +1,8 @@
+if (typeof require === "function") {
+	expect = require('chai').expect;
+	LinkedList = require('../src/LinkedList').LinkedList;
+}
+
 describe('Linked List', function () {
 
 	var list;

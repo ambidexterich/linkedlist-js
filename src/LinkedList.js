@@ -118,10 +118,10 @@ function LinkedList() {
 
 }
 
-if (typeof module !== "undefined" && module !== null && module.exports != null) {
-	module.exports = LinkedList;
+if (typeof exports !== 'undefined') {
+	exports.LinkedList = LinkedList;
 } else {
 	root.LinkedList = LinkedList;
 }
 
-}(this));
+}( this ) );

@@ -10,7 +10,7 @@
 		"underscore"	: "1.4.x"
 	},
 	"scripts" : {
-		"test"			: "./node_modules/mocha/bin/mocha",
+		"test"	: "./node_modules/mocha/bin/mocha",
 		"start"	: "node bin/test"
 	},
 	"bin" : "bin/test",
